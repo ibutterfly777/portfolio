@@ -1,0 +1,147 @@
+.aboutUs
+{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+
+    background: url(../images/111.png) repeat center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.aboutUs__inner
+{
+    width: 82%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.aboutUs__title
+{
+    font: bold 26px/48px 'Trebuchet MS', sans-serif;
+
+    width: 99%;
+    max-width: 700px;
+    margin: 0;
+    padding-top: 70px;
+
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #ee8129;
+}
+
+.aboutUs__annotation
+{
+    font: italic 19px/30px 'Open Sans', sans-serif;
+
+    width: 98%;
+    margin: 10px 0 30px;
+
+    color: #fff;
+}
+
+.aboutUs__list
+{
+    font: 14px/30px 'Open Sans', sans-serif;
+
+    width: 95%;
+    max-width: 610px;
+
+    color: #9d9d9d;
+}
+
+.aboutUs__blue_item
+{
+    font: 14px/30px 'Open Sans', sans-serif;
+
+    width: 95%;
+    max-width: 610px;
+
+    color: #3070a8;
+}
+
+.aboutUs__list_item
+{
+    padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 700px)
+{
+    .aboutUs__inner
+    {
+        padding-bottom: 20px;
+    }
+    .aboutUs__title
+    {
+        font: bold 22px/36px 'Trebuchet MS', sans-serif;
+
+        padding-top: 40px;
+
+        text-align: center;
+    }
+
+    .aboutUs__annotation
+    {
+        font: italic 15px/18px 'Open Sans', sans-serif;
+
+        width: 95%;
+        margin: 13px auto 22px;
+
+        text-align: center;
+
+        color: #fff;
+    }
+
+    .aboutUs__list,
+    .aboutUs__blue_item
+    {
+        font: 12px/24px 'Open Sans', sans-serif;
+    }
+}
+
+@media screen and (max-width: 699px)
+{
+    .aboutUs
+    {
+        margin-top: 0;
+    }
+
+    .aboutUs__inner
+    {
+        padding-bottom: 20px;
+    }
+    .aboutUs__title
+    {
+        font: bold 18px/30px 'Trebuchet MS', sans-serif;
+
+        padding-top: 30px;
+
+        text-align: center;
+    }
+
+    .aboutUs__annotation
+    {
+        font: italic 13px/15px 'Open Sans', sans-serif;
+
+        width: 95%;
+        margin: 10px auto 15px;
+
+        text-align: center;
+    }
+
+    .aboutUs__list,
+    .aboutUs__blue_item
+    {
+        font: 11px/20px 'Open Sans', sans-serif;
+
+        width: 100%;
+        padding: 0;
+
+        list-style-position: inside;
+    }
+}

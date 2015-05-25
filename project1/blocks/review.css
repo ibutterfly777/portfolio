@@ -1,0 +1,272 @@
+.review
+{
+    font-family: 'Trebuchet MS', sans-serif;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin-top: 80px;
+
+    background: url(../images/bg_reviews.jpg) repeat center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.review__inner
+{
+    overflow: hidden;
+
+    width: 82%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.review__title
+{
+    font-size: 40px;
+
+    margin: 0;
+    padding-top: 58px;
+    padding-bottom: 48px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3170a8;
+}
+
+.review__title span
+{
+    font-weight: normal;
+
+    color: #ee8129;
+}
+
+.review_testimonial
+{
+    overflow: hidden;
+
+    padding-bottom: 78px;
+}
+
+.review_testimonial_item_left
+{
+    float: left;
+
+    width: 48%;
+    max-width: 488px;
+}
+
+.review_testimonial_item_right
+{
+    float: right;
+
+    width: 48%;
+    max-width: 488px;
+}
+
+.testimonial__photo
+{
+    float: left;
+
+    width: 21%;
+    max-width: 98px;
+}
+
+.inner__photo
+{
+    width: 100%;
+    max-width: 98px;
+    height: auto;
+    max-height: 98px;
+}
+
+.testimonial_card
+{
+    font-size: 13px;
+
+    position: relative;
+
+    float: right;
+
+    box-sizing: border-box;
+    width: 75%;
+    max-width: 365px;
+    padding: 12px 14px;
+
+    color: #666;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+
+.testimonial_card_name
+{
+    font-style: italic;
+
+    position: relative;
+
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+
+    color: #3070a8;
+    border-bottom: 1px dotted #666;
+}
+
+.testimonial_card_name > .testimonial_name
+{
+    margin: 0;
+}
+
+.testimonial_card_name > .testimonial_customer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin: 0;
+}
+
+.testimonial_card_text
+{
+    line-height: 20px;
+
+    letter-spacing: .4px;
+}
+
+
+.testimonial_card:before
+{
+    position: absolute;
+    top: 35px;
+    left: -24px;
+
+    width: 0;
+    height: 0;
+
+    content: ' ';
+
+    border: 12px solid;
+    border-color: transparent white transparent transparent;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 700px)
+{
+    .review__title
+    {
+        font-size: 30px;
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .review_testimonial
+    {
+        padding-bottom: 50px;
+    }
+
+    .testimonial_card_text
+    {
+        font-size: 12px;
+        line-height: 14px;
+
+        letter-spacing: 0;
+    }
+
+    .testimonial_card
+    {
+        font-size: 12px;
+
+        padding: 9px 9px;
+    }
+
+    .testimonial_card:before
+    {
+        position: absolute;
+        top: 25px;
+        left: -14px;
+
+        width: 0;
+        height: 0;
+
+        content: ' ';
+
+        border: 7px solid;
+        border-color: transparent white transparent transparent;
+    }
+}
+
+
+@media screen and (max-width: 699px)
+{
+    .review
+    {
+        margin-top: 40px;
+    }
+
+    .review__inner
+    {
+        width: 90%;
+    }
+
+    .review__title
+    {
+        font-size: 22px;
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .review_testimonial
+    {
+        padding-bottom: 30px;
+    }
+
+    .testimonial_card_text
+    {
+        font-size: 12px;
+        line-height: 12px;
+
+        letter-spacing: 0;
+    }
+
+    .testimonial_card
+    {
+        font-size: 12px;
+
+        padding: 9px 9px;
+    }
+
+    .testimonial_card:before
+    {
+        position: absolute;
+        top: 25px;
+        left: -14px;
+
+        width: 0;
+        height: 0;
+
+        content: ' ';
+
+        border: 7px solid;
+        border-color: transparent white transparent transparent;
+    }
+
+    .review_testimonial_item_left,
+    .review_testimonial_item_right
+    {
+        float: none;
+        overflow: hidden;
+
+        width: 100%;
+        max-width: 488px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial__photo
+    {
+        width: 19%;
+    }
+}

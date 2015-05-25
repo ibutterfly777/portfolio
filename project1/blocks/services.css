@@ -1,0 +1,144 @@
+.services__title
+{
+    font: bold 30px/40px 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+
+    color: #41525c;
+}
+
+.services
+{
+    width: 82%;
+    max-width: 1024px;
+    margin: 60px auto 0;
+
+    text-align: justify;
+}
+
+.services__item
+{
+    font: 14px/25px 'Open Sans', sans-serif;
+
+    display: inline-block;
+
+    width: 31%;
+    max-width: 315px;
+    margin-top: 75px;
+
+    text-align: center;
+    vertical-align: top;
+
+    color: #999;
+}
+
+.services__item_title
+{
+    font: 30px/40px Futura, sans-serif;
+
+    text-transform: uppercase;
+
+    color: #3070a8;
+}
+
+.services:after
+{
+    display: inline-block;
+
+    width: 100%;
+
+    content: '';
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 700px)
+{
+    .services__title
+    {
+        font: bold 22px/0 'Trebuchet MS';
+    }
+
+    .services__item
+    {
+        font: 12px/23px 'Open Sans', sans-serif;
+
+        display: inline-block;
+
+        margin-top: 30px;
+
+        color: #999;
+    }
+
+    .services__item img
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+    .services__item_title
+    {
+        font: 22px/0 Futura, sans-serif;
+    }
+}
+
+
+@media screen and (max-width: 699px)
+{
+    .services
+    {
+        width: 90%;
+        margin: 25px auto 0;
+    }
+
+    .services__title
+    {
+        font: bold 18px/22px 'Trebuchet MS';
+    }
+
+    .services__item_inline
+    {
+        display: inline-block;
+
+        margin: 0;
+    }
+
+    .services__item
+    {
+        font: 12px/21px 'Open Sans', sans-serif;
+
+        position: relative;
+
+        display: block;
+        overflow: hidden;
+
+        width: 90%;
+        max-width: 900px;
+        margin: 25px auto;
+    }
+
+    .services__item img
+    {
+        position: absolute;
+        left: 0;
+
+        width: 15%;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    .services__item_title
+    {
+        font: 18px/0 Futura, sans-serif;
+
+        margin: 0;
+    }
+
+    .services__item_inner
+    {
+        float: right;
+
+        width: 80%;
+
+        text-align: left;
+    }
+}

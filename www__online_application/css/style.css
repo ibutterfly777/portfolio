@@ -1,0 +1,484 @@
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+    width: 1046px;
+    margin: 0 auto;
+}
+
+.content
+{
+    height: 1228px;
+    margin: 0;
+
+    background: url(../images/bg.png) center center;
+    -webkit-background-size: 1046px;
+       -moz-background-size: 1046px;
+         -o-background-size: 1046px;
+            background-size: 1046px;
+}
+
+.left__side
+{
+    float: left;
+
+    width: 317px;
+    margin-top: 34px;
+}
+
+.right__side
+{
+    float: right;
+
+    width: 685px;
+    margin-top: 10px;
+}
+
+.logo
+{
+    margin-left: 26px;
+}
+
+.image
+{
+    margin: 35px 0 39px 7px;
+}
+
+.left__title
+{
+    font-size: 21px;
+
+    width: 270px;
+    margin-left: 45px;
+
+    color: #454848;
+}
+
+.left__documents
+{
+    font-size: 18px;
+
+    width: 230px;
+    margin: 100px 0 0 45px;
+
+    color: #333232;
+}
+
+.left__side ul
+{
+    font-size: 18px;
+
+    margin-left: 4px;
+
+    list-style-type: none;
+
+    color: #333232;
+}
+
+li a
+{
+    text-decoration: none;
+
+    color: #7c7bb6;
+}
+
+li a:hover
+{
+    text-decoration: underline;
+}
+
+li a:active
+{
+    color: #d62f5d;
+}
+
+h2
+{
+    font-size: 42px;
+
+    margin-bottom: 0;
+
+    color: #d72f5d;
+}
+
+.change
+{
+    font-size: 30px;
+
+    color: #d72f5d;
+}
+
+.change p
+{
+    margin: 20px 0;
+}
+
+.procent
+{
+    float: left;
+
+    margin-right: 50px;
+
+    border-radius: 100%;
+}
+
+.comission
+{
+    font-size: 19px;
+
+    padding: 47px 0;
+
+    text-transform: uppercase;
+
+    color: #d72f5d;
+}
+
+.pink__cost
+{
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #d72f5d;
+}
+
+.pink__cost span
+{
+    font-weight: bold;
+}
+
+form
+{
+    margin-top: 113px;
+
+    color: #454848;
+}
+
+input.user_sum
+{
+    width: 133px;
+    height: 36px;
+    margin-top: 6px;
+    padding-left: 10px;
+
+    border: none;
+    border: 1px solid #cccbcd;
+}
+
+.radiobutton
+{
+    margin-top: 25px;
+}
+
+.radio
+{
+    width: 17px;
+    height: 17px;
+    margin: 0 3px 0;
+
+    vertical-align: top;
+}
+.radio + label
+{
+    cursor: pointer;
+}
+.radio:not(checked)
+{
+    position: absolute;
+
+    opacity: 0;
+}
+.radio:not(checked) + label
+{
+    position: relative;
+
+    padding: 0 10px 0 30px;
+}
+.radio:not(checked) + label:before
+{
+    position: absolute;
+    top: -3px;
+    left: 0;
+
+    width: 22px;
+    height: 22px;
+
+    content: '';
+
+    border: 1px solid #abc5d8;
+    border-radius: 50%;
+    background: #fff;
+}
+.radio:not(checked) + label:after
+{
+    position: absolute;
+    top: 1px;
+    left: 4px;
+
+    width: 16px;
+    height: 16px;
+
+    content: '';
+    transition: all .2s;
+
+    opacity: 0;
+    border-radius: 50%;
+    background: #abc5d8;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+}
+.radio:checked + label:after
+{
+    opacity: 1;
+}
+
+.userName
+{
+    display: inline-block;
+
+    margin-top: 46px;
+}
+
+.surname,
+.name
+{
+    width: 160px;
+    margin-right: 20px;
+}
+
+.surname input,
+.name input
+{
+    width: 160px;
+    height: 33px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+    border: 1px solid #cccbcd;
+}
+
+.aftername
+{
+    width: 245px;
+}
+
+.aftername input
+{
+    width: 233px;
+    height: 33px;
+    margin-top: 6px;
+    padding-left: 10px;
+
+    border: 1px solid #cccbcd;
+}
+
+.line
+{
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-right: 34px;
+}
+
+.birthday
+{
+    width: 320px;
+}
+
+.birthday input
+{
+    font-size: 16px;
+
+    overflow: hidden;
+
+    width: 320px;
+    height: 33px;
+    margin-top: 6px;
+
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #d62f5d;
+}
+
+.birthday input:-webkit-calendar-picker-indicator
+{
+    display: none;
+}
+
+.employment
+{
+    width: 256px;
+}
+
+.employment select
+{
+    font-size: 16px;
+
+    overflow: hidden;
+
+    width: 256px;
+    height: 33px;
+    margin-top: 6px;
+
+    color: #fff;
+    border: none;
+    outline: none;
+    background: url(../images/select.png) no-repeat 232px #d62f5d;
+    background-image: none\0;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+@-moz-document url-prefix()
+{
+    .employment select,
+    .birthday input
+    {
+        background-image: none;
+    }
+}
+@media \0screen
+{
+    .employment select
+    {
+        background-image: none;
+    }
+}
+
+.user__town
+{
+    margin-top: 52px;
+}
+
+.left__phone
+{
+    display: inline-block;
+
+    margin-top: 25px;
+    margin-right: 34px;
+}
+
+.user__town input,
+.left__phone input
+{
+    width: 260px;
+    height: 33px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+    border: 1px solid #cccbcd;
+}
+
+.checkbox
+{
+    font-size: 11px;
+
+    margin-top: 13px;
+
+    vertical-align: sub;
+}
+
+.checkbox a,
+.credit a
+{
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #7c7bb6;
+}
+
+.credit
+{
+    font-size: 13px;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.btn_submit
+{
+    font-size: 14px;
+    font-weight: bold;
+
+    display: block;
+
+    width: 232px;
+    height: 47px;
+    margin: 35px auto 0;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    background-color: #65be5a;
+}
+
+.btn_submit:hover
+{
+    background-color: #51b545;
+    text-shadow: 0 0 3px #0a5c00;
+}
+
+.btn_submit:active
+{
+    outline: none;
+    background-color: #5f9e57;
+    box-shadow: inset 2px 2px 3px #093a03;
+}
+
+.footer
+{
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+
+.left
+{
+    float: left;
+}
+
+.company
+{
+    font-size: 10px;
+}
+
+.grey
+{
+    font-size: 10px;
+
+    color: #797c7e;
+}
+
+.right
+{
+    margin-left: 820px;
+
+    color: #d62f5d;
+}
+
+.phone
+{
+    font-size: 19px;
+    font-weight: bold;
+
+    margin: 0;
+    padding-top: 9px;
+}
+
+.describe
+{
+    font-size: 11px;
+
+    margin: 0;
+
+    text-transform: uppercase;
+}
+
+.jqueryOptions
+{
+    display: none;
+}

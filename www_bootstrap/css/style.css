@@ -1,0 +1,544 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container
+{
+    width: 90%;
+    min-height: 105px;
+}
+
+.maxWidthMy
+{
+    max-width: 1440px;
+}
+
+.navbar
+{
+    min-height: 105px;
+
+    background-color: #fff;
+}
+
+.pull-none
+{
+    float: none;
+
+    margin: auto;
+}
+
+li
+{
+    padding-left: 50px;
+
+    list-style: none;
+
+    background: url(../img/check.png) no-repeat 0 8px;
+}
+
+.listgreen
+{
+    font-size: 25px;
+    line-height: 48px;
+
+    width: 65%;
+    margin: 75px auto 0;
+
+    color: #6cae0a;
+}
+
+h2
+{
+    font-size: 21px;
+
+    margin-top: 12px;
+
+    text-transform: uppercase;
+
+    color: #2e5ba8;
+}
+
+.phone_number
+{
+    font-size: 30px;
+
+    margin: 30px 0 0 30px;
+}
+
+.buttonmy
+{
+    font: bold 15px/15px OpenSans, Arial, Arial, Helvetica, sans-serif;
+
+    display: inline-block;
+
+    margin: 30px 0 0 0;
+    padding: 12px 25px;
+
+    -webkit-transition: all .1s linear;
+       -moz-transition: all .1s linear;
+            transition: all .1s linear;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(255,255,255,1);
+    border-color: #267000;
+    border-bottom: 3px solid #267000;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    background: #6cae0a;
+}
+
+.buttonmy:hover,
+.btn-primary:focus
+{
+    border-color: #267000;
+    background: #267000;
+}
+
+.backbluemy
+{
+    margin-top: 105px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+
+    background-color: #2e5ba8;
+}
+
+.whitetext
+{
+    font-size: 21px;
+    line-height: 10px;
+
+    padding: 15px 0;
+
+    color: white;
+}
+
+.whiteuppercase
+{
+    font-weight: normal;
+
+    color: white;
+}
+
+.modalmy
+{
+    z-index: 10000000!important;
+}
+
+.redtext
+{
+    font: normal 36px/42px OpenSansB, Arial, Arial, Helvetica, sans-serif;
+
+    margin: 36px 0 86px;
+
+    color: #f00;
+}
+
+.reportmy
+{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.yourdesigen
+{
+    width: 80%;
+    max-width: 514px;
+    margin: 0 auto;
+}
+
+.btncareMy
+{
+    font-size: 22px;
+
+    color: rgba(255,255,255,1);
+    border-color: #af0000;
+    border-bottom: 3px solid #af0000;
+    background-color: #f00;
+}
+
+.btncareMy:hover,
+.btncareMy:focus
+{
+    color: #fff;
+    background-color: #af0000;
+}
+
+.questionsmy
+{
+    font-size: 28px;
+
+    padding-top: 10px;
+}
+
+.greenblock
+{
+    margin-top: 35px;
+    padding-left: 25px;
+
+    background-color: #6cae0a;
+}
+
+.complectmy
+{
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 25px;
+
+    padding-top: 12px;
+}
+
+.whiteuppercase span
+{
+    font-size: 32px;
+
+    padding-top: 10px;
+}
+
+.backbluetopsmall
+{
+    margin-top: 60px;
+}
+
+.backbluemy2
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 5px;
+
+    background-color: #2e5ba8;
+}
+.whitetext span.year
+{
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.imgMy
+{
+    margin: 70px auto 35px;
+}
+
+.bluetextMy
+{
+    font-weight: normal;
+
+    color: #2e5ba8;
+}
+
+.describetextMy
+{
+    font-size: 16px;
+
+    width: 75%;
+    margin: 0 auto 40px;
+
+    color: #000;
+}
+
+.whatToDo
+{
+    margin: 50px auto 100px;
+}
+
+.greyBackMy
+{
+    height: 100px;
+    margin-top: -90px;
+    padding-top: 15px;
+
+    background-color: #eee;
+}
+
+.phonegreyMy
+{
+    font-size: 20px;
+
+    padding-top: 40px;
+
+    color: #737373;
+}
+
+.greytextMy
+{
+    font-size: 18px;
+
+    padding-top: 40px;
+
+    color: #737373;
+}
+
+.phoneRedMy
+{
+    font-size: 46px;
+
+    padding-top: 40px;
+
+    color: #f00;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .container
+    {
+        min-height: 105px;
+    }
+
+    .navbar
+    {
+        min-height: 85px;
+    }
+
+    h2
+    {
+        font-size: 18px;
+
+        margin-top: 12px;
+    }
+
+    li
+    {
+        padding-left: 50px;
+
+        list-style: none;
+
+        background: url(../img/check.png) no-repeat 0 8px;
+    }
+
+    .listgreen
+    {
+        font-size: 25px;
+        line-height: 48px;
+
+        width: 65%;
+        margin: 75px auto 0;
+
+        color: #6cae0a;
+    }
+
+    .phone_number
+    {
+        font-size: 24px;
+
+        margin: 30px 0 0 30px;
+    }
+
+    .buttonmy
+    {
+        font: bold 15px/15px OpenSans, Arial, Arial, Helvetica, sans-serif;
+
+        display: inline-block;
+
+        margin: 30px 0 0 0;
+        padding: 12px 25px;
+
+        -webkit-transition: all .1s linear;
+           -moz-transition: all .1s linear;
+                transition: all .1s linear;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: rgba(255,255,255,1);
+        border-color: #267000;
+        border-bottom: 3px solid #267000;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        background: #6cae0a;
+    }
+
+    .buttonmy:hover,
+    .btn-primary:focus
+    {
+        border-color: #267000;
+        background: #267000;
+    }
+
+    .backbluemy
+    {
+        margin-top: 105px;
+        margin-bottom: 30px;
+        padding-top: 5px;
+
+        background-color: #2e5ba8;
+    }
+
+    .whitetext
+    {
+        font-size: 21px;
+        line-height: 10px;
+
+        padding: 15px 0;
+
+        color: white;
+    }
+
+    .whiteuppercase
+    {
+        font-weight: normal;
+
+        color: white;
+    }
+
+    .modalmy
+    {
+        z-index: 10000000 !important;
+    }
+
+    .redtext
+    {
+        font: normal 36px/42px OpenSansB, Arial, Arial, Helvetica, sans-serif;
+
+        margin: 36px 0 86px;
+
+        color: #f00;
+    }
+
+    .reportmy
+    {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .yourdesigen
+    {
+        width: 80%;
+        max-width: 514px;
+        margin: 0 auto;
+    }
+
+    .btncareMy
+    {
+        font-size: 22px;
+
+        color: rgba(255,255,255,1);
+        border-color: #af0000;
+        border-bottom: 3px solid #af0000;
+        background-color: #f00;
+    }
+
+    .btncareMy:hover,
+    .btncareMy:focus
+    {
+        color: #fff;
+        background-color: #af0000;
+    }
+
+    .questionsmy
+    {
+        font-size: 28px;
+
+        padding-top: 10px;
+    }
+
+    .greenblock
+    {
+        margin-top: 35px;
+        padding-left: 25px;
+
+        background-color: #6cae0a;
+    }
+
+    .complectmy
+    {
+        font-size: 21px;
+        font-weight: normal;
+        line-height: 25px;
+
+        padding-top: 12px;
+    }
+
+    .whiteuppercase span
+    {
+        font-size: 32px;
+
+        padding-top: 10px;
+    }
+
+    .backbluetopsmall
+    {
+        margin-top: 60px;
+    }
+
+    .backbluemy2
+    {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-top: 5px;
+
+        background-color: #2e5ba8;
+    }
+
+    .whitetext span.year
+    {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .imgMy
+    {
+        margin: 70px auto 35px;
+    }
+
+    .bluetextMy
+    {
+        font-weight: normal;
+
+        color: #2e5ba8;
+    }
+
+    .describetextMy
+    {
+        font-size: 16px;
+
+        width: 75%;
+        margin: 0 auto 40px;
+
+        color: #000;
+    }
+
+    .whatToDo
+    {
+        margin: 50px auto 100px;
+    }
+
+    .greyBackMy
+    {
+        height: 100px;
+        margin-top: -90px;
+        padding-top: 15px;
+
+        background-color: #eee;
+    }
+
+    .phonegreyMy
+    {
+        font-size: 20px;
+
+        padding-top: 40px;
+
+        color: #737373;
+    }
+
+    .greytextMy
+    {
+        font-size: 18px;
+
+        padding-top: 40px;
+
+        color: #737373;
+    }
+
+    .phoneRedMy
+    {
+        font-size: 46px;
+
+        padding-top: 40px;
+
+        color: #f00;
+    }
+}

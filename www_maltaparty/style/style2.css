@@ -1,0 +1,116 @@
+#wrapper
+{
+    width: 1000px;
+    margin: 100px auto 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. CAROUSEL
+/*-----------------------------------------------------------------------------------*/
+
+#wrapper .d-carousel ul li
+{
+    width: 314px;
+    padding: 16px 10px 30px;
+
+    background: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 #b7b7b7;
+       -moz-box-shadow: 0 1px 2px 0 #b7b7b7;
+            box-shadow: 0 1px 2px 0 #b7b7b7;
+}
+
+.jcarousel-direction-rtl
+{
+    direction: rtl;
+}
+
+.d-carousel h4
+{
+    margin: 5px 0 5px 0;
+}
+
+.d-carousel .jcarousel-container
+{
+    display: block;
+    overflow: hidden;
+
+    margin-bottom: 20px;
+}
+
+.d-carousel .jcarousel-item
+{
+    width: 190px;
+    height: 290px;
+}
+
+.d-carousel .jcarousel-container-horizontal
+{
+    width: 900px;
+    height: 345px;
+    padding: 0 45px;
+}
+
+.d-carousel .jcarousel-item-horizontal
+{
+    margin-top: 3px;
+    margin-right: 11px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.d-carousel .jcarousel-next-horizontal
+{
+    position: absolute;
+    top: 149px;
+    right: 0;
+
+    width: 15px;
+    height: 28px;
+    margin-right: 3px;
+
+    cursor: pointer;
+
+    background: transparent url(../img/blog-arrows.jpg) no-repeat top right;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal
+{
+    right: auto;
+    left: 5px;
+
+    background-image: url(../img/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-next-horizontal:hover
+{
+    background-position: bottom right;
+}
+
+.d-carousel .jcarousel-prev-horizontal
+{
+    position: absolute;
+    top: 149px;
+    left: 0;
+
+    width: 15px;
+    height: 28px;
+    margin-left: 3px;
+
+    cursor: pointer;
+
+    background: transparent url(../img/blog-arrows.jpg) no-repeat top left;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal
+{
+    right: 5px;
+    left: auto;
+
+    background-image: url(../img/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-prev-horizontal:hover
+{
+    background-position: bottom left;
+}
